@@ -20,13 +20,10 @@ function solution(array, commands) {
     
     if(valid){
         for(var i = 0; i<commands.length; i++){
-            //자르기
             var arr = array.slice(commands[i][0]-1,commands[i][1]);
-            //정렬
             arr.sort(function(a,b){
                 return a-b;
             })
-            //수찾기
             answer.push(arr[commands[i][2]-1]);
         }
     }
