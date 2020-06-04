@@ -1,0 +1,17 @@
+<Problem description>
+Array 'arr' is given. 
+Each element of the array arr consists of the numbers 0 through 9. 
+At this time, remove all but one consecutive number from the array arr. 
+However, when returning the numbers remaining after removal, 
+the order of the elements in the array arr must be maintained. 
+For example,
+  - If arr = [1, 1, 3, 3, 0, 1, 1], [1, 3, 0, 1] is returned.
+  - If arr = [4, 4, 4, 3, 3], [4, 3] is returned.
+Complete the solution function to remove the consecutive numbers from the array arr and return the remaining numbers.
+
+
+
+<I/O example>
+     arr		  answer
+[1,1,3,3,0,1,1]	   =>	[1,3,0,1]
+  [4,4,4,3,3]	   =>	  [4,3]
