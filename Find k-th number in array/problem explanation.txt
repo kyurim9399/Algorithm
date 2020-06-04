@@ -1,0 +1,35 @@
+<Problem description>
+Array When extracting and sorting from the i-th to the j-th of the array, find the number in the k-th.
+
+For example, if array is [1, 5, 2, 6, 3, 7, 4], i = 2, j = 5, k = 3
+
+  1. If you cut from the 2nd to the 5th of the array, it will be [5, 2, 6, 3].
+  2. Sorting the array from #1 is [2, 3, 5, 6].
+  3. The third number in the array from #2 is 5.
+
+Array When a two-dimensional array commands with array,
+[i, j, k] as elements are given as parameters,
+write a solution function to return the result of applying the operation described 
+above for all elements of commands in an array.
+
+
+
+<Limitations>
+ - The length of array is 1 or more and 100 or less.
+ - Each element of the array is 1 or more and 100 or less.
+ - The length of commands is 1 or more and 50 or less.
+ - Each element of commands has a length of 3.
+
+
+
+<I/O example>
+array     [1, 5, 2, 6, 3, 7, 4]
+commands  [[2, 5, 3], [4, 4, 1], [1, 7, 3]]
+return    [5, 6, 3]
+
+
+
+<Input/Output Example Description>
+Cut [1, 5, 2, 6, 3, 7, 4] from 2nd to 5th and sort. The third number in [2, 3, 5, 6] is 5.
+Cut [1, 5, 2, 6, 3, 7, 4] from 4th to 4th and sort. The first number in [6] is 6.
+Cut [1, 5, 2, 6, 3, 7, 4] from 1st to 7th. The third digit in [1, 2, 3, 4, 5, 6, 7] is 3.
